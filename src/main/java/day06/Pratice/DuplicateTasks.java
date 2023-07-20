@@ -1,10 +1,13 @@
 
 package day06.Pratice;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class DuplicateTasks {
+	
+	
 
 	public static void main(String[] args) {
 
@@ -27,5 +30,6 @@ public class DuplicateTasks {
 			System.out.println(city);
 		}
 	}
+
 
 }
