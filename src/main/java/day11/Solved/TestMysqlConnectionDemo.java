@@ -13,7 +13,7 @@ public class TestMysqlConnectionDemo {
 		// Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", 
 																					"root", 
-																					"123456");
+																					"");
 		System.out.println(conn);
 
 	}
