@@ -1,6 +1,6 @@
 package day10.Solved;
 
-public class ThrowRunTimeExceptionDemo {
+public class NewTaskValidator {
 	
 	public static boolean validate(Task task)  {
 		if (task == null)
@@ -22,5 +22,6 @@ public class ThrowRunTimeExceptionDemo {
 		// Not surrounding with try catch as Illegal is a runtime exception
 		ThrowRunTimeExceptionDemo.validate(task);
 	}
+
 
 }
